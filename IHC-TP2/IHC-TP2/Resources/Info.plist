@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Olá! Precisamos de permissão para ver a latitude e longitude através do iPhone</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Olá! Precisamos de permissão para checar a luminosidade usando a câmera!</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

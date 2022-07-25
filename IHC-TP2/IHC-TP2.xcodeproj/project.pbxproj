@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7288722288E09580042B9E1 /* MessageReceiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7288721288E09580042B9E1 /* MessageReceiverViewController.swift */; };
+		C7288724288E0CC80042B9E1 /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7288723288E0CC80042B9E1 /* AccelerometerViewController.swift */; };
+		C7288726288E0F510042B9E1 /* AccelerometerResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7288725288E0F510042B9E1 /* AccelerometerResultsViewController.swift */; };
+		C7288728288E13C00042B9E1 /* LuminosidadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7288727288E13C00042B9E1 /* LuminosidadeViewController.swift */; };
+		C728872B288E140B0042B9E1 /* CameraSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728872A288E140B0042B9E1 /* CameraSupport.swift */; };
+		C728872D288E17E30042B9E1 /* GiroscopioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728872C288E17E30042B9E1 /* GiroscopioViewController.swift */; };
+		C728872F288E18010042B9E1 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728872E288E18010042B9E1 /* LocationViewController.swift */; };
 		C7B6D04128898FEE0044F0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B6D04028898FEE0044F0E7 /* AppDelegate.swift */; };
 		C7B6D04328898FEE0044F0E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B6D04228898FEE0044F0E7 /* SceneDelegate.swift */; };
 		C7B6D04528898FEE0044F0E7 /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B6D04428898FEE0044F0E7 /* SumViewController.swift */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7288721288E09580042B9E1 /* MessageReceiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageReceiverViewController.swift; sourceTree = "<group>"; };
+		C7288723288E0CC80042B9E1 /* AccelerometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
+		C7288725288E0F510042B9E1 /* AccelerometerResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerResultsViewController.swift; sourceTree = "<group>"; };
+		C7288727288E13C00042B9E1 /* LuminosidadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuminosidadeViewController.swift; sourceTree = "<group>"; };
+		C728872A288E140B0042B9E1 /* CameraSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSupport.swift; sourceTree = "<group>"; };
+		C728872C288E17E30042B9E1 /* GiroscopioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiroscopioViewController.swift; sourceTree = "<group>"; };
+		C728872E288E18010042B9E1 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		C7B6D03D28898FEE0044F0E7 /* IHC-TP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IHC-TP2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B6D04028898FEE0044F0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7B6D04228898FEE0044F0E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7288729288E13F60042B9E1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C728872A288E140B0042B9E1 /* CameraSupport.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		C7B6D03428898FEE0044F0E7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +80,7 @@
 		C7B6D03F28898FEE0044F0E7 /* IHC-TP2 */ = {
 			isa = PBXGroup;
 			children = (
+				C7288729288E13F60042B9E1 /* Support */,
 				C7B6D055288990640044F0E7 /* ViewControllers */,
 				C7B6D0542889905A0044F0E7 /* Resources */,
 				C7B6D04628898FEE0044F0E7 /* Main.storyboard */,
@@ -82,6 +105,12 @@
 			children = (
 				C7B6D04428898FEE0044F0E7 /* SumViewController.swift */,
 				C7B6D05628899B6B0044F0E7 /* MessageViewController.swift */,
+				C7288723288E0CC80042B9E1 /* AccelerometerViewController.swift */,
+				C7288721288E09580042B9E1 /* MessageReceiverViewController.swift */,
+				C7288725288E0F510042B9E1 /* AccelerometerResultsViewController.swift */,
+				C7288727288E13C00042B9E1 /* LuminosidadeViewController.swift */,
+				C728872C288E17E30042B9E1 /* GiroscopioViewController.swift */,
+				C728872E288E18010042B9E1 /* LocationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -157,7 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7288728288E13C00042B9E1 /* LuminosidadeViewController.swift in Sources */,
+				C728872B288E140B0042B9E1 /* CameraSupport.swift in Sources */,
+				C7288726288E0F510042B9E1 /* AccelerometerResultsViewController.swift in Sources */,
 				C7B6D04528898FEE0044F0E7 /* SumViewController.swift in Sources */,
+				C728872D288E17E30042B9E1 /* GiroscopioViewController.swift in Sources */,
+				C728872F288E18010042B9E1 /* LocationViewController.swift in Sources */,
+				C7288722288E09580042B9E1 /* MessageReceiverViewController.swift in Sources */,
+				C7288724288E0CC80042B9E1 /* AccelerometerViewController.swift in Sources */,
 				C7B6D04128898FEE0044F0E7 /* AppDelegate.swift in Sources */,
 				C7B6D05728899B6B0044F0E7 /* MessageViewController.swift in Sources */,
 				C7B6D04328898FEE0044F0E7 /* SceneDelegate.swift in Sources */,
@@ -307,6 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7WV6D6894;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IHC-TP2/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -334,6 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7WV6D6894;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IHC-TP2/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

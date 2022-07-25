@@ -9,15 +9,15 @@ import UIKit
 
 class MessageSenderViewController: UIViewController {
     
-    @IBOutlet weak var messageLabel: UILabel!
-    var message: String?
+    @IBOutlet weak var messaLabel: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        messageLabel.text = message
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let messageReceiverVC: MessageReceiverViewController =  segue.destination as? MessageReceiverViewController {
+            messageReceiverVC.message = messaLabel.text
+        }
     }
     
     @IBAction func sendButtonTouched(_ sender: Any) {
-        performSegue(withIdentifier: "showMessageReceiver", sender: nil)
+        performSegue(withIdentifier: "showMessageReceiverVC", sender: nil)
     }
 }
